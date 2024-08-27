@@ -73,7 +73,7 @@ export default function Home() {
   };
 
   return (
-    <div className="" data-theme={isDark ? "dark" : "light"}>
+    <div className="transition-all" data-theme={isDark ? "dark" : "light"}>
       <Toggle isCheck={isDark} handleCheck={changecolor} />
 
       <div className="">

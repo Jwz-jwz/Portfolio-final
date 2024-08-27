@@ -14,8 +14,8 @@ export const Menu = ({
 }) => {
   return (
     <div
-      className={`absolute transition-all ease-in duration-200 ${
-        isShow ? "right-0" : "right-[100%]"
+      className={`absolute transition-all ease-in duration-300  ${
+        isShow ? "left-[10%]" : "right-[100%]"
       }  w-full h-[1000px] flex justify-center bg-[var(--bg-one)]`}
     >
       <div className="container flex flex-col items-start text-[var(--tom-color)] gap-[24px] p-[16px]">
