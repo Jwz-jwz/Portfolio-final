@@ -14,7 +14,11 @@ export const BodyAbout = () => {
         </div>
         <div className=" flex gap-[48px] justify-center md:justify-between">
           <div className="md:w-[50%] hidden md:flex p-5 ">
-            <img src="./working.avif" alt="" className="rounded-lg" />
+            <img
+              src="./working.avif"
+              alt=""
+              className="rounded-lg w-[600px] h-[500px]"
+            />
           </div>
           <div className="md:w-[50%] flex flex-col gap-[24px]">
             <HeadNameBold text="Curious about me? Here you have it:" />
