@@ -17,12 +17,9 @@ export const BodyOne = () => {
             className="text-[60px] font-[700] leading-[72px] text-[var(--tom-color)]"
             href=""
           >
-            Hi, I’m Tom 👋
+            Hi, I’m Jwz 👋
           </a>
-          <TextSection
-            text="I specialize in full stack development, particularly with React.js and Node.js.
-            My main goal is to create exceptional digital experiences that are fast, visually appealing, and accessible to everyone. With over 7 years of experience in web development, I continue to find joy in crafting innovative solutions and designs."
-          />
+          <TextSection text="I’m a junior full-stack developer with a growing focus on React.js and Node.js. I’m passionate about creating fast, visually appealing, and accessible digital experiences. While I’m at the start of my web development journey, I’m eager to learn, solve problems, and contribute to building user-friendly and innovative applications." />
           <div className="flex flex-col gap-[8px]">
             <div className="flex gap-[8px]">
               <LocationIcon />
@@ -41,7 +38,7 @@ export const BodyOne = () => {
         </div>
         <div className="md:w-[50%] hidden md:flex justify-end">
           <img
-            src="./Picfirst.png
+            src="./jwz.jpg
             "
             alt=""
           />

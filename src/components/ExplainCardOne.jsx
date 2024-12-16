@@ -7,9 +7,9 @@ export const ExplainCardOne = () => {
     <div className="hidden md:flex md:justify-between gap-[16px] md:gap-[48px] bg-[var(--bg-one)] p-[32px] rounded-[12px] drop-shadow-md">
       <UpworkSvg />
       <div className="flex flex-col gap-[16px] ">
-        <UpworkHead text="Sr. Frontend Developer" />
+        <UpworkHead text="Financial Specialist for Portfolio" />
         <div className="flex md:hidden">
-          <TextSection text="Nov 2021 - Present" />
+          <TextSection text="Jan 2016 - Jan 2017" />
         </div>
         <ul className="flex flex-col gap-[4px] list-disc ml-[30px]">
           <li>

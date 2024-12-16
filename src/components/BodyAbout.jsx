@@ -13,14 +13,14 @@ export const BodyAbout = () => {
           <img src="./mobilesecond.png" alt="" />
         </div>
         <div className=" flex gap-[48px] justify-center md:justify-between">
-          <div className="md:w-[50%] hidden md:flex">
-            <img src="./Picsecond.png" alt="" />
+          <div className="md:w-[50%] hidden md:flex p-5 ">
+            <img src="./working.avif" alt="" className="rounded-lg" />
           </div>
           <div className="md:w-[50%] flex flex-col gap-[24px]">
             <HeadNameBold text="Curious about me? Here you have it:" />
-            <TextSection text="I'm a designer turned full stack developer, passionate about React.js and Node.js. I excel in blending technical and visual aspects to craft exceptional digital products, prioritizing user experience, precise design, and optimized code." />
-            <TextSection text="Since starting my web development journey in 2015, I've embraced challenges and kept up with the latest tech trends. Now in my early thirties, seven years in, I'm building cutting-edge web apps using Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and more." />
-            <TextSection text="With a progressive mindset, I enjoy the entire product development process, from ideation to execution. Off duty, you'll find me on Twitter, tracking startup journeys, or unwinding. Follow me for tech insights and public project updates on Twitter or GitHub." />
+            <TextSection text="I’m a former mathematician and economic modeler with an MBA in project management, now embarking on a journey as a software developer. Passionate about React.js and Node.js, I’m blending my analytical skills and project management expertise with my growing technical knowledge to craft efficient, user-centered digital solutions." />
+            <TextSection text="My background in problem-solving and strategic planning shapes my approach to development, allowing me to think critically about both the technical and business aspects of a product. I’m currently building skills with Next.js, TypeScript, and Supabase while embracing the challenges of my career shift." />
+            <TextSection text="In my downtime, I enjoy exploring tech trends, learning from the startup ecosystem, and sharing insights on GitHub and Twitter. Follow my journey as I combine my past experiences with a fresh focus on software development." />
             <TextSection text="Finally, some quick bits about me." />
             <div className="flex gap-[10px] ">
               <ul className="flex flex-col gap-[10px] list-disc ml-[25px]">

@@ -18,14 +18,14 @@ export const BodyGetTouch = () => {
           <div className="flex gap-[20px]">
             <MessageICon />
             <p className="text-[18px] font-[600] leading-[28px] md:text-[36px] md:font-[600] md:leading-[40px] text-[var(--tom-color)]">
-              tom@pinecone.mn
+              javzandulam.san@gmail.com
             </p>
             <WindowIcon />
           </div>
           <div className="flex gap-[20px]">
             <PhoneIcon />
             <p className="text-[18px] font-[600] leading-[28px] md:text-[36px] md:font-[600] md:leading-[40px] text-[var(--tom-color)]">
-              +976 88112233
+              +976 90038368
             </p>
             <WindowIcon />
           </div>

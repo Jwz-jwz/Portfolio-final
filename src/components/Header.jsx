@@ -19,7 +19,7 @@ export const Header = ({
           className="text-[40px] font-[700] leading-[36px] text-center"
           href=""
         >
-          Tom
+          Jwz
         </a>
         <div className="hidden md:flex gap-[24px]">
           <div className="flex gap-[24px]">
