@@ -13,7 +13,7 @@ export const Header = ({
   contactBut,
 }) => {
   return (
-    <div className="w-full p-4 md:px-[80px] md:py-[16px] flex justify-center items-center bg-[var(--bg-one)]">
+    <div className="w-full p-4 md:px-[80px] md:py-[16px] flex justify-center items-center bg-blue-900 relative z-10">
       <div className="container md:px-[32px] flex justify-between text-[var(--tom-color)]">
         <a
           className="text-[40px] font-[700] leading-[36px] text-center"
@@ -27,7 +27,7 @@ export const Header = ({
               <NavBarName name={"About"} />
             </button>
             <button onClick={workBut}>
-              <NavBarName name={"Work"} />
+              <NavBarName name={"Project"} />
             </button>
             <button onClick={testBut}>
               <NavBarName name={"Testimonials"} />
@@ -41,9 +41,9 @@ export const Header = ({
             <label for="check">
               {isDark ? <MoonButton /> : <LightButton />}
             </label>
-            <p className="px-[16px] py-[6px] bg-[var(--bg-black)] rounded-[12px] text-[16px] font-[500] leading-[24px] text-[var(--download-color)] ">
+            {/* <p className="px-[16px] py-[6px] bg-[var(--bg-black)] rounded-[12px] text-[16px] font-[500] leading-[24px] text-[var(--download-color)] ">
               Download CV
-            </p>
+            </p> */}
           </div>
         </div>
         <button className="flex md:hidden" onClick={showing}>

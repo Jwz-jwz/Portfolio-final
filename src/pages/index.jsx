@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Menu } from "@/components/Menu";
 import { MenuToggle } from "@/components/MenuToggle";
+import StarryBackground from "@/components/StaryyBg";
 import { Toggle } from "@/components/Toggle";
 import { MobileButton } from "@/components/svg/MobileButton";
 import { useState } from "react";
@@ -67,15 +68,15 @@ export default function Home() {
   };
   const contactButMen = () => {
     window.scroll({
-      top: 8000,
+      top: 12000,
       behavior: "smooth",
     });
   };
 
   return (
-    <div className="transition-all" data-theme={isDark ? "dark" : "light"}>
+    <div className=" transition-all" data-theme={isDark ? "dark" : "light"}>
       <Toggle isCheck={isDark} handleCheck={changecolor} />
-
+      <StarryBackground />
       <div className="">
         <Menu
           isDark={isDark}

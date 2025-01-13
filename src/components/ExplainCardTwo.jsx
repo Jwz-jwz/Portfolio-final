@@ -7,7 +7,7 @@ export const ExplainCardTwo = () => {
     <div className="hidden md:flex md:justify-between gap-[48px] bg-[var(--bg-one)] p-[32px] rounded-[12px] drop-shadow-md">
       <UpworkSvg />
       <div className="flex flex-col gap-[16px] ">
-        <UpworkHead text="Project manager" />
+        <UpworkHead text="Project manager, trading" />
         <ul className="flex flex-col gap-[4px] list-disc ml-[30px]">
           <li>
             <TextSection text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />

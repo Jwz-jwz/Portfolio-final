@@ -27,7 +27,7 @@ export const ExplainCardOne = () => {
         </ul>
       </div>
       <div className="hidden md:flex">
-        <TextSection text="Nov 2021 - Present" />
+        <TextSection text="Jan 2016 - Jan 2017" />
       </div>
     </div>
   );

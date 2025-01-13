@@ -7,7 +7,7 @@ import { TextSection } from "./TextSection";
 
 export const BodyOne = () => {
   return (
-    <div className="w-full px-[16px] py-[64px] md:px-[80px] md:py-[96px] bg-[var(--bg-one)] flex justify-center items-center">
+    <div className="w-full px-[16px] py-[64px] md:px-[80px] md:py-[96px] flex justify-center items-center relative z-10">
       <div className="container md:px-[32px] flex gap-[48px] justify-between">
         <div className="md:w-[50%] flex flex-col gap-[48px]">
           <div className="flex md:hidden justify-center">

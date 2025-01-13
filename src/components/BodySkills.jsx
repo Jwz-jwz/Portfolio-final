@@ -18,21 +18,21 @@ import { Typescript } from "./svg/Typescript";
 
 export const BodySkills = () => {
   return (
-    <div className="w-full px-[16px] py-[64px] md:px-[80px] md:py-[96px] bg-[var(--bg-one)] flex justify-center items-center">
+    <div className="w-full px-[16px] py-[64px] md:px-[80px] md:py-[96px] flex justify-center items-center relative z-10">
       <div className="container md:px-[32px] flex flex-col gap-[24px] md:gap-[48px]">
         <div className="flex flex-col items-center gap-[16px] ">
           <HeadName text="Skills" />
           <HeadText text="The skills, tools and technologies I am really good at:" />
         </div>
-        <div className="grid grid-cols-3 grid-rows-6 md:grid  md:grid-cols-8 md:grid-rows-2 gap-[48px] md:justify-between">
+        <div className="grid grid-cols-3 grid-rows-6 md:grid  md:grid-cols-6 md:grid-rows-2 gap-[48px] md:justify-between">
           <IconSvg text="Javascript" />
           <Typescript text="Typescript" />
           <React text="React" />
           <NextJs text="Next.js" />
           <Nodejs text="Node.js" />
           <ExpressJs text="Expres.js" />
-          <NestJs text="Nest.js" />
-          <Socket text="Socket.io" />
+          {/* <NestJs text="Nest.js" /> */}
+          {/* <Socket text="Socket.io" /> */}
           <div className="flex flex-col gap-[8px] items-center">
             <img src="./zaan.svg" alt="" />
             <p className="text-[18px] font-[400] leading-[28px] text-[var(--tom-color)]">
@@ -40,11 +40,11 @@ export const BodySkills = () => {
             </p>
           </div>
           <Mongo text="MongoDb" />
-          <Sass text="Sass/Scss" />
+          {/* <Sass text="Sass/Scss" /> */}
           <Tailwind text="Tailwindcss" />
           <Figma text="Figma" />
           <Cypress text="Cypress" />
-          <Storybook text="Storybook" />
+          {/* <Storybook text="Storybook" /> */}
           <Git text="Git" />
         </div>
       </div>

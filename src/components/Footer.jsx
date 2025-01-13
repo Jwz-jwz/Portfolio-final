@@ -3,7 +3,7 @@ import { TextSection } from "./TextSection";
 
 export const Footer = () => {
   return (
-    <div className="w-full px-[16px] py-[64px] md:px-[80px] md:py-[24px] flex justify-center items-center bg-[var(--bg-two)]">
+    <div className="w-full px-[16px] py-[64px] md:px-[80px] md:py-[24px] flex justify-center items-center relative z-10">
       <div className="container md:px-[32px] flex justify-center">
         <div className="flex gap-[16px] justify-center">
           <FinalIcon />

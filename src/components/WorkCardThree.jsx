@@ -6,8 +6,8 @@ import { UpworkHead } from "./UpworkHead";
 export const WorkCardThree = () => {
   return (
     <div className="grid grid-cols-1 grid-rows-2 md:flex rounded-xl shadow-md">
-      <div className="md:w-[50%] flex justify-center items-center bg-[var(--bg-two)] p-[48px]">
-        <img src="./blogweb.png" alt="" />
+      <div className="md:w-[50%] flex justify-center items-center bg-[var(--bg-two)]">
+        <img src="./blogweb.png" alt="" className="rounded-l-md" />
       </div>
       <div className="md:w-[50%] p-[48px] flex flex-col gap-[24px] ">
         <UpworkHead text="Blog web" />
@@ -24,7 +24,9 @@ export const WorkCardThree = () => {
           <HeadName text="Github" />
           <HeadName text="Git" />
         </div>
-        <DirectionButton />
+        <a href="https://blogwebapp-six.vercel.app/">
+          <DirectionButton />
+        </a>
       </div>
     </div>
   );

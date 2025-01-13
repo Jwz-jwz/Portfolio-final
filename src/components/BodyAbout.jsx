@@ -4,7 +4,7 @@ import { TextSection } from "./TextSection";
 
 export const BodyAbout = () => {
   return (
-    <div className="w-full px-[16px] py-[64px] md:px-[80px] md:py-[96px] bg-[var(--bg-two)] flex justify-center items-center">
+    <div className="w-full px-[16px] py-[64px] md:px-[80px] md:py-[96px]  flex justify-center items-center relative z-10">
       <div className="md:container md:px-[32px] flex flex-col gap-[24px] md:gap-[48px]">
         <div className="flex justify-center items-center">
           <HeadName text="About me" />
